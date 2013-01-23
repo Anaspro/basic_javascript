@@ -1,0 +1,48 @@
+<script type=”text/javascript”>
+
+function displaySize(sizes){
+
+switch (sizes)  {
+
+case “header”:sizeDim=’728 x 90′;break;
+
+case “footer”:sizeDim=’500 x 150′;break;
+
+case “sidebar”:sizeDim=’7263 x 181′;break;
+
+}
+
+document.getElementById(‘dimension’).innerHTML=sizeDim;
+
+}
+
+</script>
+<table>
+
+<tr>
+
+<td>Select Position</td>	 <td>
+
+<select name=”banner_position” onchange=”javascript:displaySize(this.value);”>
+
+<option value=”>Select the position</option>
+
+<option value=’header’  >Header</option>
+
+<option value=’footer’ >Footer</option>
+
+<option value=’sidebar’  >Sidebar</option>
+
+</select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>Upload image</td>	 <td>	 <input type=”file” name=”image” />(Size should be <span id=”dimension”></span>)	 </td>
+
+</tr>
+
+</table>
