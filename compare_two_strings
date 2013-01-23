@@ -1,0 +1,11 @@
+You can compare two strings using “==” operator
+
+eg :
+
+var str1=”Test1″;
+
+var str2=”Test2″;
+
+if(str1=str2)
+
+alert(“Message”);
