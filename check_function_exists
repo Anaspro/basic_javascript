@@ -1,0 +1,16 @@
+<script language=”javascript” type=”text/javascript”>
+
+function myFunction() {
+
+}
+if(window.myFunction) {
+
+alert(“‘myFunction’ already exists”);
+
+}  else {
+
+alert(“‘myFunction’ does not already exists”);
+
+}
+
+</script>
