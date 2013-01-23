@@ -1,0 +1,4 @@
+You can declare an array using the constructor  ”Array”
+
+var arlene1 = new Array();
+var arlene2 = new Array(“First element”, ”Second”, ”Last”)
