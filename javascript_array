@@ -1,0 +1,5 @@
+eg :
+
+var str = new Array(“First element”, ”Second”, ”Last”);
+
+alert(str.length) //will return the number of elements in an array
