@@ -1,0 +1,5 @@
+<script type=”text/javascript”>
+var string=”PHPCode”;
+string=string.replace(“Code”,”Codez”);
+alert(string);
+</script>
