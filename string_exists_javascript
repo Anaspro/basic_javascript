@@ -1,0 +1,5 @@
+<script type=”text/javascript”>
+if(window.location.href.indexOf(“https:”) > -1) {
+alert(“its a secure URL”);
+}
+</script>
